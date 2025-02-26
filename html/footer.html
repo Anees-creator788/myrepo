@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>animated footer</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+
+            /*basic reset*/
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            /* main content styling */
+            .contect{
+                padding: 20px;
+                text-align: center;
+            }
+            /* footer styling */
+            .footer{
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                background-color: aquamarine;
+                border: 1px solid black;
+                color: black;
+                text-align: center;
+                padding: 10px;
+                animation: slidein 1s ease-out;
+            }
+            footer:hover{
+                background-color: black;
+                color: white;
+            }
+            /* animation effect */
+            @keyframes slidein{
+                from{
+                    transform: translateY(100%);
+                }
+                to{
+                    transform: translateY(0%);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <!-- main content of the page -->
+         <div>
+            <h1>WELCOME TO MY DARKWEBSITE</h1>
+            <p>Enjoy And Explore The Contect on This Page.</p>
+            <P>ANEES BALOUCH</P>
+         </div>
+         <!-- footer -->
+          <footer class="footer">
+            <div class="footer-content">
+                <p>&copy; 2025 Your Company. All Right Reserved.</p>
+
+            </div>
+
+          </footer>
+    </body>
+    </html>
+</body>
+</html>
