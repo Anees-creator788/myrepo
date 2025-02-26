@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            font-size: large;
+            color: burlywood;
+        }
+        input{
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        h1{
+            font-style: oblique;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <marquee behavior="alternate" scrollaround="10" direction="right" style="font-size: x-large; color: red; font-style: italic;">STUDENT FORM</marquee>
+    <marquee behavior="alternate" scrollaround="10" direction="right" style="font-size: medium; color: green;">&copy;2025</marquee>
+
+    <fieldset style="border: 2px solid black;">
+        <legend>
+            <h1>STUDENT FORM</h1>
+        </legend>
+        <form>
+
+    <label>NAME:</label>
+    <input type="NAME" required placeholder="name">
+    <br>
+    <br>
+    <label>F.NAME:</label>
+    <input type="F.NAME" required placeholder="F.name">
+    <br>
+    <br>
+    <label>EMAIL:</label>
+    <input type="EMAIL" required placeholder="@emailL">
+    <br>
+    <br>
+    <label>PASSWORD:</label>
+    <input type="PASSWORD" required placeholder="password">
+    <br>
+    <br>
+    <label>DATE OF BIRTH:</label>
+    <input type="date" required placeholder="DOB">
+    <br>
+    <br>
+    <label>GENDER:</label>
+    <br>
+    MALE
+    <input type="radio" name="gen">
+    FEMALE
+    <input type="radio" name="gen">
+    <br>
+    <br>
+    
+    <label>SELECT CITY</label>
+    <select>
+        <option>KARACHI</option>
+        <option>HYDERABAD</option>
+        <option>MULTAN</option>
+        <option>LAHORE</option>
+        <option>BALOUCHISTAN</option>
+    </select>
+    <br>
+    <br>
+
+    <label>SUBJECT</label>
+    <br>
+    HTML:
+    <input type="checkbox">
+    CSS:
+    <input type="checkbox">
+    JS:
+    <input type="checkbox">
+
+    <br>
+    <br>
+    <label>FILE:</label>
+    <input type="file">
+    <br>
+    <br>
+    
+    <label>SUBMIT DATE</label>
+    <input type="datetime-local">
+
+    <label>color</label>
+    <input type="color">
+
+    <br>
+    <br>
+    <!-- <input type="button" value="DONE"> -->
+     <input style="background-color: blue; cursor: pointer;" type="submit" value="SUBMIT">
+     <input style="background-color: green; cursor: pointer;" type="reset" value="RESET">
+    </form>
+     
+    </fieldset>
+
+</body>
+</html>
